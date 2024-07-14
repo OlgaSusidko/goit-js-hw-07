@@ -16,16 +16,19 @@ body {
 .gallery{
   display: flex;
   align-items: start;
-  gap: 50px;
+  gap: 36px 24px;
   flex-wrap: wrap;
   list-style: none;
+  
 }
 
 .gallery li {
-  width: 300px;
+  width: 360px;
 
 }
 
 .gallery li img {
-width: 300px;
+width: 360px;
+height: 300px;
+object-fit: cover;
 }
